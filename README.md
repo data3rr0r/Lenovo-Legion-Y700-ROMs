@@ -8,11 +8,15 @@ Repo with all the info about the ROMs available for the Lenovo Legion Y700 2022 
 </br>
 
 # 📚 Index
+
+[Unlocking bootloader](#blu)
+
 ROMs: 
 * ⚡ [How to flash CN Stock ROM](#stock-rom) -> Unbrick device
 * ⚡ [How to sideload the Unofficial ZUI 15 OTA with Android 13](#unofficial-ota)
 * ⚡ [How to flash a GSI ROM](#flash-gsi)
 * ℹ️ [GSI ROMs working in the Lenovo Legion Y700 2022](#info)
+* ℹ️ [Some fixes](#gsifix)
   
 <br>
 
@@ -20,6 +24,42 @@ Utilities:
 * 🦄 [How to install Magisk (Root tablet)](#magisk)
 * 🛠️ Magisk fixes: To Be Done
 * 🚀 [Acknowledgements](#acknowledgements)
+
+---
+<br>
+
+## Unlocking Bootloader: <a name=blu></a>
+Enable Developer settings by clicking ZUI Version in "About Tablet"
+Enable OEM unlocking and USB debugging
+Connect your Tablet to PC, and allow USB debugging.
+
+Now check your PC recognizes Y700.
+```
+adb devices
+```
+If your device is detected, your serial number will appear. 
+
+Restart your tablet with this command:
+```
+adb reboot bootloader
+```
+
+The device will now boot into bootloader. 
+Now check your PC recognizes your device **IN BOOTLOADER MODE** with:
+```
+fastboot devices
+```
+(Note: fastboot requires different drivers, search in google.)
+
+After your device gets detected, unlock bootloader with:
+```
+fastboot flashing unlock
+```
+
+A warning message will appear. Use volume buttons and select "UNLOCK THE BOOTLOADER" with power button.
+Your data will be wiped and system will reboot automatically.
+
+Congratulations. You now have unlocked bootloader.
 
 ---
 <br>
@@ -81,6 +121,15 @@ Click on any of the ROMs listed here to see how they look and possible issues
 
 
 --- 
+<br>
+
+## ℹ️ GSI ROMs working in the Lenovo Legion Y700 2022: <a name=gsi></a>
+This section is currently WIP. Your problem may not be listed here.
+
+### Audio jack (3.5mm) not working
+<br>
+Go Settings->Phh Treble Settings->Qualcomm features->Enable `Use alternate audio policy` and `Disable soundvolume effect` and reboot.
+---
 <br>
 
 ## ⚡ How to flash a GSI ROM: <a name=flash-gsi></a>
