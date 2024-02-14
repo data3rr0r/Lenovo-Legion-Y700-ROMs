@@ -16,7 +16,7 @@ ROMs:
 * ⚡ [How to sideload the Unofficial ZUI 15 OTA with Android 13](#unofficial-ota)
 * ⚡ [How to flash a GSI ROM](#flash-gsi)
 * ℹ️ [GSI ROMs working in the Lenovo Legion Y700 2022](#info)
-* ℹ️ [Some fixes](#gsifix)
+* ℹ️ [GSI fixes](#gsifix)
   
 <br>
 
@@ -124,12 +124,20 @@ Click on any of the ROMs listed here to see how they look and possible issues
 --- 
 <br>
 
-## ℹ️ GSI ROMs working in the Lenovo Legion Y700 2022: <a name=gsifix></a>
+## ℹ️ GSI Fixes: <a name=gsifix></a>
+Here you can find some issues with GSI roms and how to fix them.
 This section is currently WIP. Your problem may not be listed here.
 
 ### Audio jack (3.5mm) not working
 <br>
-Go Settings->Phh Treble Settings->Qualcomm features->Enable `Use alternate audio policy` and `Disable soundvolume effect` and reboot.
+Go Settings->Phh Treble Settings->Qualcomm features->Enable `Use alternate audio policy`
+<br>
+Go Settings->Phh Treble Settings->Misc features->Enable `Use alternate way to detect headsets`
+
+### Utilising slide switch / Auto brightness fix / Face Unlock Fix (Magisk Module)
+<br>
+Install [this module](https://github.com/reindex-ot/LegionY700-GSI-Fix_MOD). Magisk Required.
+
 ---
 <br>
 
