@@ -136,6 +136,7 @@ Go Settings->Phh Treble Settings->Misc features->Enable `Use alternate way to de
 
 ### Utilising slide switch / Auto brightness fix / Face Unlock Fix (Magisk Module)
 <br>
+
 Install [this module](https://github.com/reindex-ot/LegionY700-GSI-Fix_MOD). Magisk Required.
 
 ---
