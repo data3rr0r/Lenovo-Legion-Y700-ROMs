@@ -123,7 +123,7 @@ Click on any of the ROMs listed here to see how they look and possible issues
 --- 
 <br>
 
-## ℹ️ GSI ROMs working in the Lenovo Legion Y700 2022: <a name=gsi></a>
+## ℹ️ GSI ROMs working in the Lenovo Legion Y700 2022: <a name=gsifix></a>
 This section is currently WIP. Your problem may not be listed here.
 
 ### Audio jack (3.5mm) not working
