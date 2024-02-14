@@ -49,7 +49,8 @@ Now check your PC recognizes your device **IN BOOTLOADER MODE** with:
 ```
 fastboot devices
 ```
-(Note: fastboot requires different drivers, search in google.)
+> [!IMPORTANT]  
+> In case your device is not recognised in fasboot mode (device does not appear when you run the above command): [How to install bootloader interface drivers](https://droidwin.com/install-google-android-bootloader-interface-drivers/)
 
 After your device gets detected, unlock bootloader with:
 ```
