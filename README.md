@@ -2,7 +2,8 @@
 Repo with all the info about the ROMs available for the Lenovo Legion Y700 2022 model
 
 Korean users, please move to [this page.](README-KR.md)
-** For Y700(2023) with model number TB320FU, please move to [this page.](2023/README.md) **
+
+**For Y700(2023) with model number TB320FU, please move to [this page.](2023/README.md)**
   
 > [!WARNING]  
 > Do this at your own risk. This process may brick your devices. You can unbrick using [this method](https://www.youtube.com/watch?v=VaCjtUDoqXA), but I am not responsible for any dagame caused to your device.
