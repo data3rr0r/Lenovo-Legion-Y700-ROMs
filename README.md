@@ -1,6 +1,7 @@
 # Lenovo Legion Y700 (TB9707F) ROMs
 Repo with all the info about the ROMs available for the Lenovo Legion Y700 2022 model
-Korean users, please move to [this page.](readme-KR.md)
+
+Korean users, please move to [this page.](README-KR.md)
   
 > [!WARNING]  
 > Do this at your own risk. This process may brick your devices. You can unbrick using [this method](https://www.youtube.com/watch?v=VaCjtUDoqXA), but I am not responsible for any dagame caused to your device.
