@@ -126,12 +126,12 @@ adb sideload OTA_FILENAME.zip
 [이 링크에서](https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list) GSI 롬 목록을 확인할 수 있습니다. **안드로이드 11 혹은 그 이상 버전의 GSI 롬을 사용하십시오.** 다음은 커뮤니티에서 정상 작동이 확인된 GSI 롬 목록입니다. 여기에 없는 롬도 정상 작동할 수 있으니, 설치 후 정상 작동이 확인되면 알려주시기 바랍니다.
 
 현재 테스트된 롬과 버그에 대해서 확인하려면, 각 롬의 이름을 클릭하여 확인하십시오.
-* [CRDROID](/roms/crdroid.md)
-* [EvolutionX](/roms/evolution.md)
-* [Voltage OS](/roms/voltageos.md)
-* [Google AOSP](/roms/google_aosp.md)
-* [LeOS U](/roms/leosu.md)
-* [Elixir Project](/roms/elixir.md)
+* [CRDROID](/roms/crdroid-kr.md)
+* [EvolutionX](/roms/evolution-kr.md)
+* [Voltage OS](/roms/voltageos-kr.md)
+* [Google AOSP](/roms/google_aosp-kr.md)
+* [LeOS U](/roms/leosu-kr.md)
+* [Elixir Project](/roms/elixir-kr.md)
 
 
 --- 
@@ -154,6 +154,9 @@ GSI 롬 사용 시 발생할 수 있는 문제와 해결 방법에 대해 서술
 
 [이 모듈을 설치하십시오.](https://github.com/reindex-ot/LegionY700-GSI-Fix_MOD). Magisk가 설치되어 있어야 합니다.
 
+### 두 번 눌러 깨우기(DT2W) 활성화
+[여기(영문)](https://xdaforums.com/t/magisk-module-enable-dt2w-for-gsi-rom-zui14-base.4633371/)로 이동하여 Y700-DT2W-Enabler.zip 파일을 다운로드한 다음 Magisk를 통해 설치하십시오. Magisk가 설치되어 있어야 작동합니다.
+
 ---
 <br>
 
@@ -165,7 +168,7 @@ GSI 롬 사용 시 발생할 수 있는 문제와 해결 방법에 대해 서술
 * 선행 사항:  
   * [공식 소스에서 ADB 다운로드](https://developer.android.com/studio/releases/platform-tools?hl=es-419)
   * 순정롬의 vbmeta.img 파일 ([이 영상의 설명란에 있습니다.](https://www.youtube.com/watch?v=VaCjtUDoqXA&t=0s))
-  * GSI 롬 이미지 파일. 여기에서는 예시로 [CRDROID](/roms/crdroid.md) 롬을 사용합니다.
+  * GSI 롬 이미지 파일. 여기에서는 예시로 [CRDROID](/roms/crdroid-kr.md) 롬을 사용합니다.
 
 
 ### 명령어: 
@@ -213,7 +216,7 @@ fastboot erase system
 fastboot delete-logical-partition product_b
 ```
 
-9. GSI 롬을 다음 명령어를 이용하여 사용합니다. 여기에서는 예시로 [CRDROID](/roms/crdroid.md) 롬을 사용합니다. system 뒤 파일명은 설치하려는 롬의 파일명으로 바꾸어 입력하십시오.
+9. GSI 롬을 다음 명령어를 이용하여 사용합니다. 여기에서는 예시로 [CRDROID](/roms/crdroid-kr.md) 롬을 사용합니다. system 뒤 파일명은 설치하려는 롬의 파일명으로 바꾸어 입력하십시오.
 ```
 fastboot flash system crDroid-10.0-arm64_bgN-Unofficial.img
 ```
