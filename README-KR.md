@@ -277,4 +277,6 @@ fastboot flash boot magiskPatchedBootB.img
 ## 🚀 참조 목록 <a name=acknowledgements></a>
 vicenteMartinezY700 [XDA 포스팅](https://xdaforums.com/t/how-to-install-gsi-with-google-services-on-legion-y700-netflix-problem-solved-games-payment-issue-solved.4651090/) - GSI 롬 및 기기 테스팅 <br>
 LinuxDroidMaster - [본 포스트의 원 저자입니다.](https://github.com/LinuxDroidMaster/Lenovo-Legion-Y700-ROMs)
+[reindex-ot](https://note.com/reindex/m/m7b23ab35e0e3) - Y700 1세대 관련 유용한 정보가 있는 일본 사이트입니다. 
+[reindex-ot](https://reindex-ot.github.io/) - 위 링크와 동일인이 운영하는 다른 사이트입니다. 아래로 내리면 순정롬 다운로드 링크를 확인할 수 있습니다.
 ---  
