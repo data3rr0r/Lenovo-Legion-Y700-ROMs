@@ -28,9 +28,9 @@ Y700 1세대 (TB9707F) 태블릿에 관한 커스텀롬/순정롬 정보를 다�
 <br>
 
 ## 부트로더 언락: <a name=blu></a>
-설정->"About Tablet(이 태블릿에 관하여)" 로 이동한 다음 ZUI 버전을 여러 번 클릭하여 개발자 설정을 활성화합니다. 비밀번호를 설정한 경우, 비밀번호를 입력해야 활성화할 수 있습니다. 
-개발자 설정으로 이동한 다음 "OEM 잠금 해제" 와 "USB 디버깅 허용"을 활성화하십시오.
-태블릿을 PC에 연결한 다음, 디버깅 허용 여부를 묻는 팝업이 나오면 "허용"을 누릅니다.
+설정->"About Tablet(이 태블릿에 관하여)" 로 이동한 다음 ZUI 버전을 여러 번 클릭하여 개발자 설정을 활성화합니다. 비밀번호를 설정한 경우, 비밀번호를 입력해야 활성화할 수 있습니다. <br>
+개발자 설정으로 이동한 다음 "OEM 잠금 해제" 와 "USB 디버깅 허용"을 활성화하십시오.<br>
+태블릿을 PC에 연결한 다음, 디버깅 허용 여부를 묻는 팝업이 나오면 "허용"을 누릅니다.<br>
 
 PC에서 태블릿을 인식하는지 다음 명령어를 입력하여 확인합니다. ADB가 무엇인지 모르거나, 설치 여부를 모른다면 [여기](https://developer.android.com/tools/releases/platform-tools)로 이동하여 "Download SDK Platform-Tools for Windows/Mac/Linux" 중 자신의 운영체제에 맞는 커맨드 툴을 다운로드하고 적절한 위치에 압축을 푼 다음, cmd 창을 열고 압축을 푼 위치로 cd 명령어를 통해 이동하여 다음 명렁어를 입력합니다.
 ```
@@ -44,7 +44,7 @@ adb devices
 adb reboot bootloader
 ```
 
-정상적으로 재부팅되었다면 기기가 부트로더 모드로 진입했을 것입니다.
+정상적으로 재부팅되었다면 기기가 부트로더 모드로 진입했을 것입니다.<br>
 PC에서 태블릿이 **부트로더 모드에 진입한 것을** 인식하는지 다음 명령어를 입력하여 확인합니다:
 ```
 fastboot devices
@@ -62,7 +62,7 @@ fastboot flashing unlock
 > **부트로더 언락 이후, 기기를 재부팅할 때마다 경고 메시지가 표시됩니다. 이는 부트로더를 다시 잠그지 않는 한 제거할 수 없습니다.**
 
 
-경고 메시지가 표시됩니다. 볼륨 버튼을 이용하여 "UNLOCK THE BOOTLOADER"을 선택한 다음, 전원 버튼을 눌러 부트로더를 언락합니다.
+경고 메시지가 표시됩니다. 볼륨 버튼을 이용하여 "UNLOCK THE BOOTLOADER"을 선택한 다음, 전원 버튼을 눌러 부트로더를 언락합니다.<br>
 내부 저장소에 저장된 모든 데이터는 이 시점에서 삭제되며, 시스템은 자동으로 재부팅합니다.
 
 정상적으로 부팅되었다면, 부트로더 언락 작업이 완료된 것입니다.
@@ -73,7 +73,7 @@ fastboot flashing unlock
 ## ⚡ 공식 중국 내수롬(순정) 플래싱하기 (ZUI 14 안드로이드 12 or ZUI 15 안드로이드 13): <a name=stock-rom></a>
 
 > [!WARNING]  
-> 이 과정을 진행하려면 부트로더 언락이 필요합니다. 아직 언락하지 않은 경우, [이 포스팅(영문)](https://xdaforums.com/t/guide-unbrick-lenovo-y700-tablet.4509297/)을 참조하십시오.
+> 이 과정을 진행하려면 부트로더 언락이 필요합니다. 아직 언락하지 않은 경우, [이 포스팅(영문)](https://xdaforums.com/t/guide-unbrick-lenovo-y700-tablet.4509297/)을 참조하십시오. 혹은 위의 `부트로더 언락` 단락을 참고하여도 됩니다.
 * ZUI 14, 안드로이드 12: [이 비디오(영문)](https://www.youtube.com/watch?v=VaCjtUDoqXA) 또는 [이 포스팅(영문)](https://xdaforums.com/t/guide-unbrick-lenovo-y700-tablet.4509297/)
 * ZUI 15, Android 13: [이 동영상(영문)에서 설치 과정을 확인할 수 있습니다.](https://www.youtube.com/watch?v=aEHFUM-yLt0)
 
