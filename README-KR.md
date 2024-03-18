@@ -52,7 +52,7 @@ fastboot devices
 > [!IMPORTANT]  
 > fastboot 모드에서 기기가 인식되지 않는 경우 (위 명령어를 입력했을 때 기기가 표시되지 않는 경우): [여기를 참고하여 부트로더 인터페이스 드라이버를 설치하십시오.(영문)](https://droidwin.com/install-google-android-bootloader-interface-drivers/)
 
-기기 연결이 확인되었으면 다음 명령어를 입력하여 부트로더를 언락을 시도합니다.:
+기기 연결이 확인되었으면 다음 명령어를 입력하여 부트로더를 언락합니다.:
 ```
 fastboot flashing unlock
 ```
