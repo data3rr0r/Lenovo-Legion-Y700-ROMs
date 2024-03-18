@@ -67,7 +67,7 @@ fastboot oem unlock-go
 5. Programmer file 칸에 `xbl_s_devprg_ns.melf`이 자동으로 선택됩니다. 이대로 두십시오.
 6. [퀄컴 9008 드라이버](https://androiddatahost.com/nbyn6)를 설치합니다.
 7. EDL 모드에 진입합니다.
-   1. Set device to fastboot
+   1. fastboot 모드로 진입합니다.
       - 볼륨 상 버튼을 홀드한 상태에서 fastboot 화면이 나타날 때까지 전원버튼을 누릅니다.
    2. 볼륨 하 버튼을 이용하여 Shutdown을 선택합니다.
    3. 기기가 진동하면 볼륨 상 버튼을 기기 화면이 검은색으로 될 때까지 누르고 있습니다.
