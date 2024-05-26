@@ -80,6 +80,7 @@ Links:
 * [QFIL - Direct Link](https://qpsttool.com/qpst-tool-v2-7-496)
 * [ZUI 14 Stock CN ROM](https://drive.google.com/file/d/1P-8sFTtID0StfhNnf1kkROhzv0wHovun/view?usp=sharing)
 * [ZUI 15 Stock CN ROM](https://drive.google.com/file/d/16PRQV0eE2F2GTm9eaFuoZoqGZgWcSTL_/view?usp=sharing)
+* [Stock Rom Collections](https://reindex-ot.github.io/lenovo/) Note: Link for QFIL ROM 14.0.255 is dead. Use ZUI 14 Stock CN ROM link above instead.
 
 Other alternatives: 
 * [All the above filles needed in 1 zip file - MEGA](https://mega.nz/file/8XU1kLgT#GVKDjBmvmJgXYfxIUEHSxsxSqLjMDmjixbV-W9GYM9w)
